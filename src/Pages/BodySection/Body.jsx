@@ -177,7 +177,7 @@ const Body = () => {
                               >
                                     <span className="tezr">PITCH DECK</span>
                               </button>
-                       
+
 
 
 
@@ -190,7 +190,7 @@ const Body = () => {
                         <h1 className='text-gray-500 text-center text-3xl font-bold mb-4 p-2'>OUR PARTNERS</h1>
 
                         <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-4 w-[95%] mx-auto'>
-                        <div className='bg-black rounded-md p-4 shadow-lg '>
+                              <div className='bg-black rounded-md p-4 shadow-lg '>
                                     <img src='https://bubbledefi.com/image/pinksale.png' alt='Image' className='w-full h-auto' />
                               </div>
                               <div className='bg-black rounded-md p-4 shadow-lg'>
@@ -203,15 +203,20 @@ const Body = () => {
                                     <img src='https://bubbledefi.com/image/catapult.svg' alt='Image' className='w-full h-auto' />
                               </div>
                         </div>
-                        <div className=' flex items-center justify-center bg-black absolute  bottom-[-50px] left-[96%] rounded-full border-white'>
-                        <button>
-                              <svg className='white' width="36" height="36" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M22 31.3333L12.6667 22M22 31.3333V12.6667M22 31.3333L31.3333 22"
-                                          stroke="#F1F5FD" strokeLinecap="round" strokeLinejoin="round" data-darkreader-inline-stroke
-                                          style={{ "--darkreader-inline-stroke": "#dad8d5" }} />
-                              </svg>
-                        </button>
-                  </div>
+                        <div className='lg:block flex items-center justify-center z-50 absolute bottom-[46%] right-10 top-[100%] rounded-full border-black'>
+                              <button className='border-2 rounded-full'>
+                                    <svg className='black' width='36' height='36' viewBox='0 0 44 44' fill='none' xmlns='http://www.w3.org/2000/svg'>
+                                          <path
+                                                d='M22 12.6667L31.3333 22M22 12.6667V31.3333M22 12.6667L12.6667 22'
+                                                stroke='#000000'
+                                                strokeLinecap='round'
+                                                strokeLinejoin='round'
+                                          />
+                                    </svg>
+                              </button>
+                        </div>
+
+
 
                   </section>
             </>
