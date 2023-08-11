@@ -32,7 +32,7 @@ const HeaderSection = () => {
           </div>
         </div>
         <div>
-          <div className='lg:block flex items-center justify-center z-50 absolute bottom-[47%] left-[50%] rounded-full border-white'>
+          <div className='hidden lg:block flex items-center justify-center z-50 absolute bottom-[46%] left-[50%] rounded-full border-white'>
             <button className='border rounded-full'>
               <svg className='white' width='36' height='36' viewBox='0 0 44 44' fill='none' xmlns='http://www.w3.org/2000/svg'>
                 <path
